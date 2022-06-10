@@ -5,7 +5,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      - run: ls -R
+      - run: ls
 
 workflows:
   list_files:
